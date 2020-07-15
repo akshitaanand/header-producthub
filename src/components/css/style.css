@@ -472,13 +472,6 @@ nav.navbar {
     background-attachment: fixed;
 }
 
-.home-hero-bg {
-    background-image: url("../assets/banner-main.jpg");
-}
-
-.product-hero-bg {
-    background-image: url("../assets/product-bg.jpg");
-}
 
 .hero-bg p {
     font-size: 18px;
@@ -665,11 +658,6 @@ nav.navbar {
     transition: all .2s;
 }
 
-.blockquote-wrap {
-    background: url("../assets/quote-bg.png");
-    position: relative;
-    background-size: cover;
-}
 
 blockquote {
     font-size: 1.428em;
@@ -681,25 +669,8 @@ blockquote {
     border: none;
 }
 
-.blockquote-wrap blockquote {
-    background: url("../assets/quote.png");
-    position: relative;
-    margin: 110px 0 210px;
-    padding: 27px 45px 27px 110px;
-    min-height: 230px;
-    background: #fff;
-    border-right: 3px solid #12517A;
-}
 
-.blockquote-wrap blockquote:before {
-    width: 93px;
-    content: " ";
-    background-image: url("../assets/quote.png");
-    position: absolute;
-    left: 0px;
-    top: -20px;
-    height: 81px;
-}
+
 
 .blockquote-wrap blockquote p {
     font-size: 24px;
@@ -793,7 +764,7 @@ blockquote {
 }
 
 
-/****** Product page styles ******/
+
 
 .product-hero-bg .container {
     width: 74%;
